@@ -12,8 +12,8 @@ public:
 
 void print(Person* person)
 {
-	std::cout << person->name << " is " << person->age << " years old, he weights " 
-		<< person->weight << " kg and is "  << person->height << " meters tall\n\n";
+	std::cout << person->name << " is " << person->age << " years old, he weights "
+		<< person->weight << " kg and is " << person->height << " meters tall\n\n";
 }
 
 

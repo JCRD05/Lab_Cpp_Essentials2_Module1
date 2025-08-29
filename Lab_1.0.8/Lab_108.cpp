@@ -9,6 +9,7 @@ private:
 public:
 	Square(double side);
 	void set_side(int side);
+	double get_area();
 	void print(Square* square);
 };
 
@@ -25,9 +26,15 @@ void Square::set_side(int side)
 	this->side = side;
 }
 
+double Square::get_area()
+{
+	area = side * side;
+	return area;
+}
+
 void Square::print(Square* square)
 {
-	std::cout << "Square: side = " << square->side << " area = " << square->area << "\n\n";
+	std::cout << "Square: side = " << square->side << " area = " << get_area() << "\n\n";
 }
 
 
