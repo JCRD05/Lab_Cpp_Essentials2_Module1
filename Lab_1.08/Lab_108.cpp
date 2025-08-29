@@ -4,8 +4,8 @@
 class Square
 {
 private:
-	double    side;
-	double    area;
+	double side;
+	double area;
 public:
 	Square(double side);
 	void set_side(int side);
