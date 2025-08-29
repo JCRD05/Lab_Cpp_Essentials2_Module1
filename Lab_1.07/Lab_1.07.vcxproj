@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c63422cb-1d80-4e60-ad7f-a08babf0571c}</ProjectGuid>
-    <RootNamespace>LabCppEssentials2JoseCarlos</RootNamespace>
+    <ProjectGuid>{8ca6e38d-2c49-4be4-a2c3-a22f47803ae6}</ProjectGuid>
+    <RootNamespace>Lab107</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Lab_1.07</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab_1.07\Lab_107.cpp" />
+    <ClCompile Include="Lab_107.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
