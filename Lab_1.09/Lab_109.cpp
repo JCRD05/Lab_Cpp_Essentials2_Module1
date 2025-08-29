@@ -81,4 +81,3 @@ int main()
 	Square2.set_side(6);
 	std::cout << "Square 2 area = " << Square2.get_area() << "\n";
 }
-
