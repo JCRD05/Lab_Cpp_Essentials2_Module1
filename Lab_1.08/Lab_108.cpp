@@ -3,11 +3,13 @@
 
 class Square
 {
-public:
-	Square(double side);
+private:
 	double    side;
 	double    area;
-	// Your code here
+public:
+	Square(double side);
+	void set_side(int side);
+	void print(Square* square);
 };
 
 Square::Square(double side)
@@ -16,7 +18,14 @@ Square::Square(double side)
 	this->area = side * side;
 }
 
-void print(Square* square)
+void Square::set_side(int side)
+{
+	if (side < 0) { return; }
+
+	this->side = side;
+}
+
+void Square::print(Square* square)
 {
 	std::cout << "Square: side = " << square->side << " area = " << square->area << "\n\n";
 }
@@ -26,14 +35,13 @@ int main()
 {
 	Square s(4);
 
+	s.print(&s);
 
-	print(&s);
+	s.set_side(2.0);
+	s.print(&s);
 
-	s.side = 2.0;
-	print(&s);
-
-	s.side = -33.0;
-	print(&s);
+	s.set_side(-33.0);
+	s.print(&s);
 
 	return 0;
 }
