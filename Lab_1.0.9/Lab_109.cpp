@@ -1,6 +1,6 @@
 #include <iostream>
 
-class AdHocSquare
+class AdHocSquare 
 {
 public:
 	AdHocSquare(double side);
