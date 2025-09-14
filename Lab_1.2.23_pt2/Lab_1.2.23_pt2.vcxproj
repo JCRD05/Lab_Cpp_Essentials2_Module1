@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cow.cpp" />
+    <ClCompile Include="FarmAnimal.cpp" />
+    <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="Lab1222_pt1.cpp" />
+    <ClCompile Include="Sheep.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cow.h" />
+    <ClInclude Include="FarmAnimal.h" />
+    <ClInclude Include="Horse.h" />
+    <ClInclude Include="Sheep.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,19 +135,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Cow.cpp" />
-    <ClCompile Include="FarmAnimal.cpp" />
-    <ClCompile Include="Horse.cpp" />
-    <ClCompile Include="Lab1223_pt2.cpp" />
-    <ClCompile Include="Sheep.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Cow.h" />
-    <ClInclude Include="FarmAnimal.h" />
-    <ClInclude Include="Horse.h" />
-    <ClInclude Include="Sheep.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

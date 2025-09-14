@@ -18,16 +18,16 @@
     <ClCompile Include="FarmAnimal.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Lab1223_pt2.cpp">
+    <ClCompile Include="Lab1222_pt1.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Sheep.cpp">
+    <ClCompile Include="Cow.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="Horse.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Cow.cpp">
+    <ClCompile Include="Sheep.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,13 +35,13 @@
     <ClInclude Include="FarmAnimal.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Sheep.h">
+    <ClInclude Include="Cow.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Horse.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Cow.h">
+    <ClInclude Include="Sheep.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
