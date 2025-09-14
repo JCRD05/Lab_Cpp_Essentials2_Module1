@@ -1,5 +1,3 @@
 #include "Sheep.h"
 
-Sheep::Sheep(double weight) : weight(weight)
-{
-}
+Sheep::Sheep(double weight) : weight(weight){}

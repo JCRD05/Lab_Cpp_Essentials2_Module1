@@ -1,6 +1,3 @@
 #include "Cow.h"
 
-Cow::Cow(double weight) : weight(weight)
-{
-
-}
+Cow::Cow(double weight) : weight(weight){}
