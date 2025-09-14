@@ -3,9 +3,9 @@
 class ShopItemOrder
 {
 private:
-	std::string itemName;
-	float itemPrice;
-	int itemsOrdered;
+	std::string itemName{};
+	float itemPrice{};
+	int itemsOrdered{};
 
 public:
 	ShopItemOrder(const std::string& itemName, float itemPrice, int itemsOrdered);

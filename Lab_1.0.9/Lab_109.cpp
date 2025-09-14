@@ -7,7 +7,7 @@ public:
 	void set_side(double side);
 	double get_area();
 private:
-	double side;
+	double side{};
 };
 
 AdHocSquare::AdHocSquare(double side)
@@ -34,9 +34,9 @@ public:
 	void set_side(double side);
 	double get_area();
 private:
-	double side;
-	double area;
-	bool side_changed;
+	double side{};
+	double area{};
+	bool side_changed{};
 };
 
 LazySquare::LazySquare(double side)

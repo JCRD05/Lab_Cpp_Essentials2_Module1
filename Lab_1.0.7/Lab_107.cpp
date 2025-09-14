@@ -4,10 +4,10 @@
 class Person
 {
 public:
-	std::string name;
-	int age;
-	int weight;
-	float height;
+	std::string name{};
+	int age{};
+	int weight{};
+	float height{};
 };
 
 void print(Person* person)
@@ -45,6 +45,4 @@ int main()
 
 	std::cout << "Meet " << person3.name << "\n";
 	print(&person3);
-
-	return 0;
 }
