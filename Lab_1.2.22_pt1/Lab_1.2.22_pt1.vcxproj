@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1ad05027-6935-4c67-8e6f-d31dcb810eaa}</ProjectGuid>
-    <RootNamespace>Lab1215pt1</RootNamespace>
+    <ProjectGuid>{0675d2ab-75ba-4d40-8eb2-b208b1976f35}</ProjectGuid>
+    <RootNamespace>Lab1222pt1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Lab_1.2.15</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GymMembership.cpp" />
-    <ClCompile Include="Lab_1215.cpp" />
+    <ClCompile Include="DoublingAnimal.cpp" />
+    <ClCompile Include="DummyAnimal.cpp" />
+    <ClCompile Include="FarmAnimal.cpp" />
+    <ClCompile Include="Lab1222_pt1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GymMembership.h" />
+    <ClInclude Include="DoublingAnimal.h" />
+    <ClInclude Include="DummyAnimal.h" />
+    <ClInclude Include="FarmAnimal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

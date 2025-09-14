@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lab_1215.cpp">
+    <ClCompile Include="Lab_1216_pt1.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="GymMembership.cpp">
+    <ClCompile Include="Fraction.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GymMembership.h">
+    <ClInclude Include="Fraction.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
