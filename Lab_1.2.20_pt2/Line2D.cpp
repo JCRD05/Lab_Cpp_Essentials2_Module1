@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <math.h>
+#include <cassert>
 #include "Line2D.h"
 
 Line2D::Line2D(double slope, double yIntersection)
@@ -11,6 +12,8 @@ Line2D::Line2D(double slope, double yIntersection)
 
 Line2D::Line2D(Point2D a, Point2D b)
 {
+	assert(b.getX() - a.getX() != 0 && "you cannot divide by 0");
+
 	slope = (b.getY() - a.getY()) / (b.getX() - a.getX());
 	yIntersection = a.getY() - slope * a.getX();
 }
