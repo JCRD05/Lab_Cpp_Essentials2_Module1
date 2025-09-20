@@ -32,16 +32,3 @@ A continuación se listan los proyectos y ejercicios contenidos en este reposito
 * **Compilador:** Compatible con g++, Clang, o MSVC (se recomienda C++17 o superior).
 * **Librerías:** Biblioteca Estándar de C++ (`iostream`, `string`, `numeric`, etc.).
 
----
-
-## Compilación y Ejecución
-
-El código de cada laboratorio es autocontenido. Para compilar y ejecutar cualquiera de los ejercicios, se puede utilizar un compilador de C++ estándar como g++.
-
-**Ejemplo de compilación con g++:**
-```bash
-# Para un proyecto con varios archivos .cpp
-g++ main.cpp Clase1.cpp Clase2.cpp -o ejecutable
-
-# Para un proyecto simple
-g++ main.cpp -o ejecutable
