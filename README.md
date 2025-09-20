@@ -32,3 +32,16 @@ A continuación se listan los proyectos y ejercicios contenidos en este reposito
 * **Compilador:** Compatible con g++, Clang, o MSVC (se recomienda C++17 o superior).
 * **Librerías:** Biblioteca Estándar de C++ (`iostream`, `string`, `numeric`, etc.).
 
+---
+
+## Conceptos Clave Practicados
+
+A lo largo de estos laboratorios, se aplican los siguientes conceptos clave de la POO:
+
+* **Clases y Objetos:** Definición, instanciación y uso.
+* **Encapsulamiento:** Miembros `public` vs. `private` y métodos de acceso (getters/setters).
+* **Herencia:** Creación de jerarquías de clases y sobrescritura de métodos (`override`).
+* **Manejo de Memoria Dinámica:** Uso de `new` y `delete` y la importancia de los destructores.
+* **Constructores:** Incluyendo constructores por defecto, parametrizados y de copia (deep copy).
+* **Implementación de Estructuras de Datos:** Listas enlazadas simples y dobles.
+* **Modelado de Problemas:** Aplicación de la POO para representar entidades del mundo real.
