@@ -1,4 +1,4 @@
-# Laboratorio: Clases y Objetos en C++
+# LAB: Classes and Objects in C++
 
 ## 📝 Descripción del Ejercicio
 
