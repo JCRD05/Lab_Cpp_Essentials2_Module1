@@ -6,8 +6,6 @@ Este repositorio agrupa las soluciones a todos los laboratorios prácticos del M
 
 El objetivo principal es aplicar de forma práctica los conceptos fundamentales de la Programación Orientada a Objetos (POO) en C++, reforzando conocimientos sobre clases, objetos, encapsulamiento, herencia y la implementación de estructuras de datos.
 
-Este repositorio sirve como respaldo del código fuente utilizado para generar el reporte final en PDF, el cual incluye las capturas de pantalla del código, la ejecución y las explicaciones requeridas por la actividad.
-
 ---
 
 ## Contenido del Repositorio
