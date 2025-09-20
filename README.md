@@ -14,17 +14,17 @@ Este repositorio sirve como respaldo del código fuente utilizado para generar e
 
 A continuación se listan los proyectos y ejercicios contenidos en este repositorio:
 
-* **1.0.7:** Clases y Objetos Básicos
-* **1.0.8:** Encapsulamiento y Métodos de Acceso (Setters)
-* **1.0.9:** Estrategias de Obtención de Datos Derivados
-* **1.0.10:** Modelado de un Objeto Real (`ShopItemOrder`)
-* **1.2.12 - 1.2.14:** Sistema de Reserva de Vuelos (Proyecto en 3 partes)
-* **1.2.15:** Sistema de Gestión de Membresías de Gimnasio
-* **1.2.16 - 1.2.18:** Modelado de Fracciones con Aritmética (Proyecto en 3 partes)
-* **1.2.19 - 1.2.21:** Puntos y Líneas en 2D (Proyecto en 3 partes)
-* **1.2.22 - 1.2.23:** Fundamentos de Herencia (Proyecto en 2 partes)
-* **1.2.24 - 1.2.30:** Implementación de una Lista Enlazada Simple (Proyecto en 7 partes)
-* **1.2.31:** Implementación de una Lista Doblemente Enlazada
+* **1.0.7:** Classes and Objects in C++
+* **1.0.8:** Restricting access to object data
+* **1.0.9:** Obtaining derived data from an object
+* **1.0.10:** Classes and objects: ShopItemOrder
+* **1.2.12 - 1.2.14:** Flight booking system 
+* **1.2.15:** Gym membership management system
+* **1.2.16 - 1.2.18:** Modelling fractions 
+* **1.2.19 - 1.2.21:** Points in 2D 
+* **1.2.22 - 1.2.23:** Inheritance basics
+* **1.2.24 - 1.2.30:** Singly linked list 
+* **1.2.31:** Doubly linked list
 
 ---
 
