@@ -22,7 +22,7 @@ Este extenso laboratorio de siete partes guía al desarrollador a través de la 
 
 A continuación se muestra una simulación de la salida para cada una de las siete partes del laboratorio, consolidadas en un solo bloque.
 
-```bash
+```console
 # --- Salida de la Parte 1 ---
 3
 2
